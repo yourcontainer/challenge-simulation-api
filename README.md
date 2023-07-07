@@ -27,6 +27,12 @@ You must follow these steps for your solution to be accepted -- forks or other m
         }
   ```
 
+  where the input parameters are:
+
+  - `geoState` is a 2 letter postal code for a state in the US (e.g. `"ca"` for California)
+  - `publisher` can be any name and represents a client publisher for the purposes of this exercise
+  - `timestamp` is the current time
+
 2) No `target` can receive more traffic per day than it allows. Here's an example `target` with max 10 accepts per day
   
   ```json
